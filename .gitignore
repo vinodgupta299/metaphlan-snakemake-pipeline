@@ -1,0 +1,15 @@
+# Snakemake internals
+.snakemake/
+
+# Pipeline outputs & logs (regenerable)
+results/
+logs/
+
+# Slurm job output
+*.out
+*.err
+
+# Env / cache junk
+__pycache__/
+*.pyc
+.DS_Store

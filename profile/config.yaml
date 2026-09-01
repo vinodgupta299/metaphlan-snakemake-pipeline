@@ -1,0 +1,16 @@
+executor: slurm
+
+jobs: 10
+
+cores: 80
+
+default-resources:
+  slurm_partition: "queue name"
+
+latency-wait: 60
+
+rerun-incomplete: true
+
+keep-going: true
+
+printshellcmds: true

@@ -1,0 +1,5 @@
+datadir: "/path_to_raw_fastq_files/My_Project"
+
+bowtie2_index: "/path_to_human_genome_index/GRCh38_noalt_as/GRCh38_noalt_as"
+
+metaphlan_index: "mpa_vOct22_CHOCOPhlAnSGB_202212"
